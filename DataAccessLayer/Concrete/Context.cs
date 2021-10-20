@@ -13,6 +13,7 @@ namespace DataAccessLayer.Concrete
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //Todo başka bilgisayara geçince değiştir
+
             optionsBuilder.UseSqlServer("server=TAYLAN\\SQLEXPRESS;database=CoreBlogDb; integrated security=true;");
         }
 
