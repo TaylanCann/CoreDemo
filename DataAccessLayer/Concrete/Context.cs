@@ -12,7 +12,7 @@ namespace DataAccessLayer.Concrete
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //Todo başka bilgisayara geçince değiştir
-            optionsBuilder.UseSqlServer("server=LAPTOP-9VG06RAO");
+            optionsBuilder.UseSqlServer("server=");
         }
     }
 }
